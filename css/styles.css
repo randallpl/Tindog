@@ -122,3 +122,14 @@ p{
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+@media (max-width: 991px){
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        transform: rotate(0);
+        position: static;
+    }
+}
